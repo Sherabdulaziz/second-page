@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1320px;
+        padding: 0px 20px;
+    }
+    body{
+        background: #F2F2F2;
+    }
+.container {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.site-header {
+    background-color: #fff;
+    padding: 45px 20px 44px 0px;
+}
+
+.site-header__container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header__link {
+   
+
+}
+.site-header__imag {
+   
+}
+.site-header__list {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.site-header__item {
+  
+}
+.site-header__item + .site-header__item{
+    margin-left: 32px;
+}
+.hero {
+   
+    
+}
+.container {
+   
+}
+.hero-container {
+    background-image: url(../img/back-img.jpg);
+    background-repeat: no-repeat;
+    padding: 137px 0px 137px 85px;
+}
+.hero__title2 {
+    width: 188px;
+    margin-bottom: 24px;
+    font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #FEFCF7;
+}
+.hero__text {
+    width: 445px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+}
+.second {
+    padding: 160px 165px 32px 125px;
+}
+
+.second-container {
+       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second__img {
+    margin-right: 125px;
+}
+.second__title2 {
+    margin-bottom: 32px;
+    font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #333D4B;
+}
+.second__text {
+    width: 540px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #333D4B;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
